@@ -1,5 +1,5 @@
 "use client";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import type { Category } from "@/lib/types";
 
 export function Mockup({ category, accent }: { category: Category; accent: string }) {

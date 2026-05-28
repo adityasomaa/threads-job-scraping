@@ -19,3 +19,5 @@ Thumbs.db
 
 scraper/playwright-report/
 scraper/test-results/
+
+.vercel

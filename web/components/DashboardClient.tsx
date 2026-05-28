@@ -1,6 +1,6 @@
 "use client";
 import { useMemo, useState } from "react";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { JobCard } from "./JobCard";
 import { FilterBar } from "./FilterBar";
 import type { Category, Job } from "@/lib/types";

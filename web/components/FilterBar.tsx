@@ -1,5 +1,5 @@
 "use client";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { CATEGORY_META, type Category } from "@/lib/types";
 
 export function FilterBar({

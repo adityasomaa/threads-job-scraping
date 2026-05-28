@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { CATEGORY_META, type Job } from "@/lib/types";
 
 export function JobCard({ job, index }: { job: Job; index: number }) {
