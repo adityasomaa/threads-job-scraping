@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=DM+Serif+Display:wght@400&display=swap');
+
+.preview-root {
+  font-feature-settings: "ss01", "cv01";
+}
+
+.preview-root h1,
+.preview-root h2,
+.preview-root h3,
+.preview-root h4 {
+  font-family: var(--font-display);
+  letter-spacing: var(--letter-spacing);
+  color: var(--text);
+}
+
+.preview-root ::selection {
+  background: var(--accent);
+  color: var(--bg);
+}

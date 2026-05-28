@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "scrape": "tsx src/index.ts",
-    "threads:login": "tsx src/login.ts"
+    "threads:login": "tsx src/login.ts",
+    "enrich": "tsx src/enrich.ts",
+    "enrich:force": "tsx src/enrich.ts --force"
   },
   "dependencies": {
     "dotenv": "^16.4.5",

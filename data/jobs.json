@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-28T00:00:00.000Z",
+  "updatedAt": "2026-05-28T06:51:24.258Z",
   "jobs": [
     {
       "id": "sample-web-1",
@@ -13,8 +13,100 @@
       "postedAt": "2026-05-27T14:30:00.000Z",
       "language": "id",
       "budget": "3-5jt",
-      "contact": { "wa": "081234567890" },
-      "keyword": "butuh web developer"
+      "contact": {
+        "wa": "081234567890"
+      },
+      "keyword": "butuh web developer",
+      "enrichment": {
+        "businessName": "Rasa Kencana",
+        "niche": "food",
+        "subniche": "modern Indonesian restaurant",
+        "style": "warm",
+        "city": null,
+        "language": "id",
+        "pages": {
+          "home": {
+            "hero": "Cita Rasa Autentik, Kisah Baru di Setiap Sajian",
+            "tagline": "Nikmati perjalanan kuliner tak terlupakan, memadukan resep tradisional dengan sentuhan modern untuk pengalaman bersantap istimewa.",
+            "intro": "Selamat datang di Rasa Kencana. Kami menghadirkan warisan rasa Indonesia yang kaya dalam suasana yang nyaman dan berkesan.",
+            "highlights": [
+              {
+                "title": "Menu Interaktif Digital",
+                "body": "Telusuri pilihan hidangan kami dengan mudah melalui menu digital yang responsif dan penuh detail."
+              },
+              {
+                "title": "Kecepatan Pelayanan Terbaik",
+                "body": "Kami memastikan setiap pesanan Anda tersaji dengan cepat tanpa mengurangi kualitas rasa dan presentasi."
+              },
+              {
+                "title": "Suasana Hangat Keluarga",
+                "body": "Rasakan kehangatan dan kenyamanan tempat kami, sempurna untuk setiap momen kebersamaan Anda."
+              }
+            ],
+            "cta": "Lihat Menu Kami"
+          },
+          "about": {
+            "headline": "Tentang Rasa Kencana: Warisan Kuliner yang Hidup",
+            "body": "Rasa Kencana lahir dari impian untuk melestarikan kekayaan kuliner Indonesia, menyajikannya kembali dengan sentuhan inovasi yang memikat. Setiap hidangan adalah perayaan rempah dan tradisi, diolah dengan bahan-bahan pilihan terbaik dari petani lokal.\n\nKami percaya bahwa makanan adalah jembatan yang menghubungkan kita dengan masa lalu, merayakan masa kini, dan menciptakan kenangan baru. Dengan dedikasi dan cinta, kami mengundang Anda untuk merasakan otentisitas dan kehangatan yang tak tertandingi di setiap suapan.",
+            "values": [
+              {
+                "title": "Kualitas Bahan Pilihan",
+                "body": "Kami berkomitmen menggunakan bahan-bahan segar dan berkualitas tinggi, langsung dari sumber terpercaya."
+              },
+              {
+                "title": "Inovasi Rasa yang Berani",
+                "body": "Menyajikan hidangan tradisional dengan interpretasi modern, menciptakan pengalaman rasa yang unik dan tak terlupakan."
+              },
+              {
+                "title": "Pelayanan Tulus Hati",
+                "body": "Memberikan layanan yang ramah dan efisien, membuat setiap kunjungan Anda terasa spesial."
+              }
+            ]
+          },
+          "services": {
+            "headline": "Jelajahi Kreasi Kuliner Kami",
+            "intro": "Dari hidangan klasik hingga kreasi baru, menu kami dirancang untuk memuaskan selera Anda dengan cita rasa otentik Indonesia.",
+            "sectionLabel": "Menu Kami",
+            "items": [
+              {
+                "name": "Nasi Goreng Kampung Premium",
+                "desc": "Nasi goreng legendaris dengan bumbu rahasia, telur mata sapi, ayam suwir, dan kerupuk renyah.",
+                "price": "IDR 45.000"
+              },
+              {
+                "name": "Sate Ayam Madura Istimewa",
+                "desc": "Potongan ayam lembut dipanggang sempurna dengan bumbu kacang khas Madura, disajikan dengan lontong.",
+                "price": "IDR 55.000"
+              },
+              {
+                "name": "Sop Buntut Bakar",
+                "desc": "Sop buntut empuk dengan kuah kaya rempah, disajikan terpisah dengan buntut bakar yang lezat.",
+                "price": "IDR 75.000"
+              },
+              {
+                "name": "Gado-Gado Siram Betawi",
+                "desc": "Sayuran segar dengan lontong dan bumbu kacang siram otentik Betawi, taburan kerupuk emping.",
+                "price": "IDR 40.000"
+              },
+              {
+                "name": "Es Campur Nusantara",
+                "desc": "Campuran buah-buahan segar, cincau, kolang-kaling, dan sirup spesial dengan es serut.",
+                "price": "IDR 30.000"
+              }
+            ]
+          },
+          "gallery": {
+            "headline": "Momen dan Cita Rasa Kami",
+            "caption": "Jelajahi visual hidangan lezat dan suasana nyaman di Rasa Kencana."
+          },
+          "contact": {
+            "headline": "Hubungi Kami",
+            "intro": "Kami senang mendengar dari Anda. Jangan ragu untuk menghubungi kami untuk reservasi atau pertanyaan lainnya.",
+            "addressHint": "Jakarta Pusat",
+            "hours": "Selasa - Minggu: 11.00 - 22.00"
+          }
+        }
+      }
     },
     {
       "id": "sample-fullstack-1",
@@ -29,7 +121,102 @@
       "language": "en",
       "budget": "$4-6k",
       "contact": {},
-      "keyword": "hiring fullstack"
+      "keyword": "hiring fullstack",
+      "enrichment": {
+        "businessName": "GlamBook",
+        "niche": "tech",
+        "subniche": "SaaS booking platform for hair salons",
+        "style": "modern",
+        "city": null,
+        "language": "en",
+        "pages": {
+          "home": {
+            "hero": "Effortless Bookings, Beautiful Business Growth.",
+            "tagline": "Streamline appointments, manage staff, and boost revenue with our intuitive, all-in-one salon management platform.",
+            "intro": "Welcome to GlamBook, the smart solution designed exclusively for modern hair salons. We empower you to focus on your craft while we handle the complexities of scheduling and client management.",
+            "highlights": [
+              {
+                "title": "Seamless Online Booking",
+                "body": "Clients can book and manage appointments 24/7 from anywhere, anytime."
+              },
+              {
+                "title": "Integrated Secure Payments",
+                "body": "Securely process payments with Stripe, offering a smooth checkout experience for clients."
+              },
+              {
+                "title": "Powerful Admin Dashboard",
+                "body": "Gain full control over your calendar, staff, and client data with an easy-to-use interface."
+              }
+            ],
+            "cta": "Get Started Today"
+          },
+          "about": {
+            "headline": "Our Story: Empowering Salon Owners",
+            "body": "At GlamBook, we understand the unique challenges faced by hair salon owners and stylists. The juggle of managing appointments, client communications, and daily operations often takes away from the creative work you love. That's why we built GlamBook – to simplify your workflow, reduce administrative burden, and help your business thrive.\n\nOur journey began with a simple idea: create a platform that truly understands the beauty industry's needs. We envisioned a tool that wasn't just functional, but intuitive, reliable, and beautiful to use. From secure client authentication to robust calendar management and integrated payment solutions, every feature is crafted to enhance efficiency and provide a superior experience for both salons and their clients.",
+            "values": [
+              {
+                "title": "Simplicity",
+                "body": "We believe powerful tools should be easy to use, making technology accessible for everyone."
+              },
+              {
+                "title": "Reliability",
+                "body": "Your business depends on us, so we build with unwavering stability and security in mind."
+              },
+              {
+                "title": "Growth",
+                "body": "We're dedicated to providing features that help your salon attract more clients and increase revenue."
+              }
+            ]
+          },
+          "services": {
+            "headline": "Features Built for Your Salon's Success",
+            "intro": "Discover how GlamBook transforms your salon operations, from client acquisition to daily management.",
+            "sectionLabel": "Features",
+            "items": [
+              {
+                "name": "Intuitive Online Booking",
+                "desc": "Allow clients to effortlessly book, reschedule, or cancel appointments directly from your website or a dedicated booking page.",
+                "price": ""
+              },
+              {
+                "name": "Secure Client Authentication",
+                "desc": "Manage client profiles, history, and preferences with robust and secure user accounts.",
+                "price": ""
+              },
+              {
+                "name": "Smart Calendar Management",
+                "desc": "Visualize your daily schedule, manage multiple stylists, and avoid double bookings with our intelligent calendar.",
+                "price": ""
+              },
+              {
+                "name": "Integrated Stripe Payments",
+                "desc": "Accept deposits, full payments, and manage refunds seamlessly, providing a professional checkout experience.",
+                "price": ""
+              },
+              {
+                "name": "Comprehensive Admin Dashboard",
+                "desc": "Gain real-time insights into your bookings, revenue, and client activity with a powerful, easy-to-navigate control center.",
+                "price": ""
+              },
+              {
+                "name": "Automated Reminders",
+                "desc": "Reduce no-shows with automated email and SMS reminders, keeping your clients informed and your schedule full.",
+                "price": ""
+              }
+            ]
+          },
+          "gallery": {
+            "headline": "See GlamBook in Action",
+            "caption": "A visual tour of our intuitive dashboard and seamless client booking experience."
+          },
+          "contact": {
+            "headline": "Ready to Transform Your Salon?",
+            "intro": "Connect with our team to learn more about GlamBook and how it can elevate your business. We're here to help.",
+            "addressHint": "",
+            "hours": "Our support team is available Monday - Friday, 9 AM - 5 PM EST."
+          }
+        }
+      }
     },
     {
       "id": "sample-ai-1",
@@ -44,7 +231,97 @@
       "language": "id",
       "budget": "8-12jt",
       "contact": {},
-      "keyword": "butuh AI engineer"
+      "keyword": "butuh AI engineer",
+      "enrichment": {
+        "businessName": "CogniSolve",
+        "niche": "tech",
+        "subniche": "AI chatbot development, custom AI solutions",
+        "style": "tech",
+        "city": null,
+        "language": "id",
+        "pages": {
+          "home": {
+            "hero": "Transformasi Layanan Pelanggan Anda dengan AI",
+            "tagline": "Hadirkan pengalaman pelanggan yang responsif dan cerdas dengan chatbot berbasis AI mutakhir yang memahami produk Anda.",
+            "intro": "Di CogniSolve, kami merancang solusi AI yang terintegrasi sempurna dengan operasional bisnis Anda. Kami membantu Anda mengotomatisasi interaksi pelanggan, memberikan jawaban instan dan akurat.",
+            "highlights": [
+              {
+                "title": "Chatbot Cerdas Terpersonalisasi",
+                "body": "Bot kami dilatih khusus dengan knowledge base produk Anda, memastikan respons yang relevan dan kontekstual."
+              },
+              {
+                "title": "Basis Pengetahuan Terintegrasi",
+                "body": "Manfaatkan hingga ratusan dokumen PDF Anda sebagai sumber informasi utama, menjadikan bot Anda ahli produk."
+              },
+              {
+                "title": "Teknologi AI Terkini",
+                "body": "Didukung oleh model AI terdepan seperti Claude atau GPT-4 dengan RAG untuk performa dan akurasi maksimal."
+              }
+            ],
+            "cta": "Mulai Proyek AI Anda"
+          },
+          "about": {
+            "headline": "Masa Depan Interaksi Pelanggan",
+            "body": "CogniSolve didirikan dengan visi untuk merevolusi cara bisnis berinteraksi dengan pelanggan. Kami percaya bahwa setiap pertanyaan layak mendapatkan jawaban yang cepat dan tepat, tanpa mengorbankan sentuhan personal. Solusi chatbot AI kami dirancang untuk memberdayakan tim Anda dan meningkatkan kepuasan pelanggan secara signifikan.\n\nKami melayani bisnis yang ingin mengoptimalkan dukungan pelanggan mereka, mengurangi beban kerja manual, dan memberikan layanan 24/7 yang tak tertandingi. Dari startup inovatif hingga perusahaan mapan, kami adalah mitra tepercaya Anda dalam perjalanan transformasi digital, menjadikan kompleksitas teknologi AI menjadi kesederhanaan operasional.",
+            "values": [
+              {
+                "title": "Inovasi Tanpa Henti",
+                "body": "Kami terus mengeksplorasi teknologi AI terbaru untuk memastikan solusi Anda selalu di garis depan."
+              },
+              {
+                "title": "Akurasi & Relevansi",
+                "body": "Setiap respons chatbot dirancang untuk akurat, informatif, dan relevan dengan konteks pertanyaan pelanggan."
+              },
+              {
+                "title": "Kemitraan Jangka Panjang",
+                "body": "Kami bekerja sama erat dengan klien, membangun solusi yang berkembang seiring dengan kebutuhan bisnis mereka."
+              }
+            ]
+          },
+          "services": {
+            "headline": "Solusi AI yang Disesuaikan untuk Anda",
+            "intro": "Kami menawarkan serangkaian layanan pengembangan AI untuk memastikan chatbot Anda tidak hanya berfungsi, tetapi juga unggul dalam melayani pelanggan Anda.",
+            "sectionLabel": "Layanan Kami",
+            "items": [
+              {
+                "name": "Pengembangan Chatbot Kustom",
+                "desc": "Membangun chatbot cerdas dari awal, disesuaikan dengan kebutuhan spesifik dan alur kerja bisnis Anda.",
+                "price": "Mulai dari IDR 8 Juta"
+              },
+              {
+                "name": "Integrasi Knowledge Base (RAG)",
+                "desc": "Mengintegrasikan hingga ratusan dokumen PDF produk Anda sebagai basis pengetahuan utama untuk chatbot.",
+                "price": ""
+              },
+              {
+                "name": "Optimasi Model AI (Claude/GPT-4)",
+                "desc": "Memilih dan mengoptimalkan model bahasa besar (LLM) terbaik untuk performa dan efisiensi chatbot Anda.",
+                "price": ""
+              },
+              {
+                "name": "Pelatihan & Pemeliharaan Chatbot",
+                "desc": "Memberikan pelatihan berkelanjutan untuk meningkatkan akurasi chatbot dan dukungan teknis pasca-implementasi.",
+                "price": ""
+              },
+              {
+                "name": "Analisis Kinerja Chatbot",
+                "desc": "Memantau dan menganalisis metrik kinerja chatbot untuk identifikasi area peningkatan dan optimalisasi.",
+                "price": ""
+              }
+            ]
+          },
+          "gallery": {
+            "headline": "Transformasi Digital dalam Gambar",
+            "caption": "Gagasan dan implementasi solusi AI kami yang membawa dampak nyata bagi bisnis klien."
+          },
+          "contact": {
+            "headline": "Mari Wujudkan Masa Depan Layanan Pelanggan",
+            "intro": "Siap untuk mengoptimalkan interaksi pelanggan Anda dengan kekuatan AI? Hubungi kami hari ini untuk konsultasi gratis.",
+            "addressHint": "",
+            "hours": "Senin - Jumat: 09.00 - 17.00 WIB"
+          }
+        }
+      }
     },
     {
       "id": "sample-mobile-1",
@@ -59,7 +336,102 @@
       "language": "en",
       "budget": "$5-7k",
       "contact": {},
-      "keyword": "looking for react native dev"
+      "keyword": "looking for react native dev",
+      "enrichment": {
+        "businessName": "Stride Sync",
+        "niche": "fitness",
+        "subniche": "mobile fitness tracking app",
+        "style": "playful",
+        "city": null,
+        "language": "en",
+        "pages": {
+          "home": {
+            "hero": "Your Fitness Journey, Simplified & Fun",
+            "tagline": "Track every workout, visualize your progress, connect with friends, and stay motivated with smart notifications tailored for you.",
+            "intro": "Welcome to Stride Sync, the app designed to make achieving your fitness goals enjoyable and effortless. Dive into a world where every step, rep, and personal best is celebrated and supported.",
+            "highlights": [
+              {
+                "title": "Effortless Workout Logging",
+                "body": "Easily record your activities, sets, and reps with an intuitive interface built for speed and accuracy."
+              },
+              {
+                "title": "Visualize Your Progress",
+                "body": "See your hard work pay off with dynamic charts and graphs that track your gains over time."
+              },
+              {
+                "title": "Connect & Share Wins",
+                "body": "Join a vibrant community, share your achievements, and find inspiration in your social feed."
+              }
+            ],
+            "cta": "Download Stride Sync"
+          },
+          "about": {
+            "headline": "About Stride Sync: Move Forward Together",
+            "body": "We believe fitness should be an empowering and accessible journey for everyone. Stride Sync was born from a desire to strip away complexity, offering a powerful yet simple tool that fits seamlessly into your active lifestyle.\n\nOur mission is to foster a global community where motivation thrives through connection, clear progress tracking, and personalized insights. We're here to celebrate every milestone, big or small, and inspire you to push your limits with confidence.",
+            "values": [
+              {
+                "title": "Empowerment Through Data",
+                "body": "We provide clear, actionable insights into your fitness data, empowering you to make informed decisions and set realistic goals."
+              },
+              {
+                "title": "Community & Connection",
+                "body": "Building a supportive network is at our core, encouraging users to share their journeys and uplift one another."
+              },
+              {
+                "title": "Intuitive & Joyful Experience",
+                "body": "We prioritize a user-friendly design that makes tracking progress and engaging with fitness genuinely fun and rewarding."
+              }
+            ]
+          },
+          "services": {
+            "headline": "Stride Sync: Your Features, Your Progress",
+            "intro": "Unlock a comprehensive suite of tools designed to support every aspect of your fitness journey. From detailed tracking to social engagement, Stride Sync has everything you need to stay on course.",
+            "sectionLabel": "Features",
+            "items": [
+              {
+                "name": "Intelligent Workout Logging",
+                "desc": "Track strength, cardio, and custom workouts with ease. Log sets, reps, weight, and duration in seconds.",
+                "price": ""
+              },
+              {
+                "name": "Dynamic Progress Charts",
+                "desc": "Visualize your gains, identify trends, and celebrate personal bests with interactive, easy-to-understand charts.",
+                "price": ""
+              },
+              {
+                "name": "Engaging Social Feed",
+                "desc": "Connect with friends, share your workouts, leave comments, and cheer each other on within a supportive community.",
+                "price": ""
+              },
+              {
+                "name": "Smart Push Notifications",
+                "desc": "Receive personalized reminders, motivation boosts, and updates on your friends' activities to keep you engaged.",
+                "price": ""
+              },
+              {
+                "name": "Customizable Workout Plans",
+                "desc": "Create and save your own workout routines or choose from a library of guided programs tailored to various goals.",
+                "price": ""
+              },
+              {
+                "name": "Activity Tracking & Goals",
+                "desc": "Monitor daily steps, calories burned, and set achievable goals to maintain consistent activity levels.",
+                "price": ""
+              }
+            ]
+          },
+          "gallery": {
+            "headline": "See Stride Sync in Action",
+            "caption": "Explore intuitive interfaces, vibrant progress charts, and engaging community features through a collection of app screenshots."
+          },
+          "contact": {
+            "headline": "Reach Out to Stride Sync",
+            "intro": "Have a question, feedback, or need support? We're here to help you get the most out of your fitness journey.",
+            "addressHint": "",
+            "hours": "24/7 In-App Support & Help Center"
+          }
+        }
+      }
     },
     {
       "id": "sample-automation-1",
@@ -74,7 +446,97 @@
       "language": "id",
       "budget": "2-4jt",
       "contact": {},
-      "keyword": "butuh otomasi"
+      "keyword": "butuh otomasi",
+      "enrichment": {
+        "businessName": "Integrasi Cerdas",
+        "niche": "services",
+        "subniche": "n8n automation services",
+        "style": "modern",
+        "city": null,
+        "language": "id",
+        "pages": {
+          "home": {
+            "hero": "Operasional Bisnis Lebih Cerdas, Lebih Cepat",
+            "tagline": "Ubah proses manual menjadi otomatis dengan solusi integrasi data yang andal dan hemat biaya, dirancang khusus untuk bisnis Anda.",
+            "intro": "Di era bisnis yang serba cepat, efisiensi adalah kunci. Kami membantu Anda memangkas waktu dan biaya operasional melalui otomatisasi cerdas.",
+            "highlights": [
+              {
+                "title": "Sinkronisasi Data Otomatis",
+                "body": "Pastikan semua data pesanan dari Shopify langsung terkirim ke Google Sheets tanpa campur tangan manual, mengurangi kesalahan dan meningkatkan akurasi."
+              },
+              {
+                "title": "Notifikasi Kurir Instan",
+                "body": "Otomatiskan pengiriman notifikasi WhatsApp ke kurir setiap ada pesanan baru, mempercepat proses pengiriman dan komunikasi."
+              },
+              {
+                "title": "Solusi Hemat Biaya",
+                "body": "Nikmati kekuatan otomatisasi enterprise tanpa beban biaya langganan yang mahal, dengan implementasi n8n self-hosted yang efisien."
+              }
+            ],
+            "cta": "Mulai Otomatisasi Anda"
+          },
+          "about": {
+            "headline": "Tentang Integrasi Cerdas: Efisiensi Tanpa Batas",
+            "body": "Di Integrasi Cerdas, kami memahami bahwa setiap detik dan setiap rupiah sangat berharga bagi bisnis Anda. Kami hadir untuk menghilangkan kerumitan proses manual yang memakan waktu dan rentan kesalahan, membebaskan Anda untuk fokus pada pertumbuhan inti bisnis. Dengan keahlian kami dalam otomatisasi data, kami mengubah tantangan operasional menjadi peluang efisiensi.\n\nKami memilih n8n sebagai fondasi solusi kami karena fleksibilitas dan efektivitas biayanya. Tidak seperti platform lain yang membebani dengan biaya langganan bulanan yang tinggi, kami menawarkan solusi self-hosted yang memungkinkan Anda memiliki kontrol penuh atas infrastruktur otomatisasi Anda. Ini berarti kinerja optimal dan penghematan signifikan dalam jangka panjang.\n\nMisi kami adalah memberdayakan bisnis, besar maupun kecil, dengan alat otomatisasi yang canggih namun mudah diakses. Kami membangun jembatan antara sistem Anda, memastikan data mengalir mulus dan komunikasi berjalan lancar, sehingga operasional Anda berjalan lebih cerdas, bukan lebih keras.",
+            "values": [
+              {
+                "title": "Efisiensi Maksimal",
+                "body": "Kami merancang solusi yang meminimalkan intervensi manual dan memaksimalkan output, menghemat waktu dan sumber daya berharga Anda."
+              },
+              {
+                "title": "Inovasi Adaptif",
+                "body": "Menggunakan teknologi terkini seperti n8n, kami menyediakan solusi otomatisasi yang fleksibel dan dapat disesuaikan dengan kebutuhan unik bisnis Anda."
+              },
+              {
+                "title": "Kemitraan Terpercaya",
+                "body": "Kami bukan hanya penyedia layanan, tetapi mitra strategis yang berkomitmen untuk mendukung pertumbuhan dan kesuksesan jangka panjang bisnis Anda."
+              }
+            ]
+          },
+          "services": {
+            "headline": "Layanan Otomatisasi Cerdas Kami",
+            "intro": "Transformasi digital Anda dimulai di sini. Kami menawarkan berbagai layanan otomatisasi yang dirancang untuk mengintegrasikan sistem Anda dan mengoptimalkan alur kerja.",
+            "sectionLabel": "Layanan Utama",
+            "items": [
+              {
+                "name": "Sinkronisasi Shopify-Sheets",
+                "desc": "Otomatiskan transfer data pesanan dari Shopify ke Google Sheets Anda secara real-time, memastikan data selalu mutakhir dan akurat.",
+                "price": "Mulai dari IDR 2.000.000"
+              },
+              {
+                "name": "Notifikasi Kurir Otomatis",
+                "desc": "Konfigurasi pengiriman notifikasi WhatsApp otomatis ke kurir Anda setiap kali ada pesanan baru yang siap diproses.",
+                "price": ""
+              },
+              {
+                "name": "Implementasi n8n Self-Hosted",
+                "desc": "Bantuan penuh dalam instalasi dan konfigurasi n8n di server Anda, memberikan Anda kontrol penuh atas infrastruktur otomatisasi.",
+                "price": ""
+              },
+              {
+                "name": "Integrasi Sistem Kustom",
+                "desc": "Membangun jembatan otomatisasi antara berbagai aplikasi dan platform yang Anda gunakan, disesuaikan dengan alur kerja spesifik bisnis Anda.",
+                "price": ""
+              },
+              {
+                "name": "Konsultasi Otomatisasi Bisnis",
+                "desc": "Identifikasi peluang otomatisasi dalam operasional Anda dan rancang strategi untuk efisiensi maksimal.",
+                "price": ""
+              }
+            ]
+          },
+          "gallery": {
+            "headline": "Alur Kerja Otomatis dalam Aksi",
+            "caption": "Lihat bagaimana solusi otomatisasi kami bekerja di balik layar, menciptakan efisiensi yang nyata untuk berbagai bisnis."
+          },
+          "contact": {
+            "headline": "Mari Wujudkan Otomatisasi Bisnis Anda",
+            "intro": "Siap untuk menghemat waktu dan biaya dengan otomatisasi cerdas? Hubungi kami hari ini untuk konsultasi gratis dan temukan solusi terbaik untuk kebutuhan Anda.",
+            "addressHint": "",
+            "hours": "Senin - Jumat: 09.00 - 17.00 WIB"
+          }
+        }
+      }
     },
     {
       "id": "sample-data-1",
@@ -89,7 +551,97 @@
       "language": "en",
       "budget": "$2k/month",
       "contact": {},
-      "keyword": "hiring data analyst"
+      "keyword": "hiring data analyst",
+      "enrichment": {
+        "businessName": "Ecometrics Analytics",
+        "niche": "services",
+        "subniche": "data analytics for e-commerce",
+        "style": "modern",
+        "city": null,
+        "language": "en",
+        "pages": {
+          "home": {
+            "hero": "Unlock Your E-commerce Growth with Data.",
+            "tagline": "Transform raw transaction data and analytics into actionable insights and strategic decisions for lasting success.",
+            "intro": "Navigate the complexities of your e-commerce landscape with clarity. We specialize in converting your data into powerful, interactive dashboards that drive real business impact.",
+            "highlights": [
+              {
+                "title": "PostgreSQL & GA Expertise",
+                "body": "Seamlessly integrate your existing data sources from PostgreSQL and Google Analytics for a unified view."
+              },
+              {
+                "title": "Actionable Weekly Reports",
+                "body": "Receive concise, impactful weekly reports that highlight key trends and performance metrics."
+              },
+              {
+                "title": "Interactive Dashboards",
+                "body": "Engage with dynamic Metabase and Superset dashboards designed for intuitive exploration and deep dives."
+              }
+            ],
+            "cta": "Start Your Data Transformation"
+          },
+          "about": {
+            "headline": "Your Partner in E-commerce Data Intelligence.",
+            "body": "In today's fast-paced e-commerce world, data isn't just numbers – it's the heartbeat of your business. Many businesses collect vast amounts of transaction data and web analytics but struggle to convert it into meaningful, growth-driving strategies. That's where Ecometrics Analytics steps in. We bridge the gap between raw data and strategic decisions, ensuring every insight fuels your success.\n\nOur team is dedicated to empowering e-commerce businesses with the tools and understanding needed to thrive. We go beyond simply building dashboards; we craft a narrative from your data, revealing opportunities, identifying bottlenecks, and providing the clarity you need to make informed choices. Partner with us to turn your data into your most valuable asset.",
+            "values": [
+              {
+                "title": "Clarity & Precision",
+                "body": "Delivering crystal-clear insights derived from meticulous data analysis and robust reporting."
+              },
+              {
+                "title": "Actionable Intelligence",
+                "body": "Transforming complex datasets into straightforward, actionable recommendations that drive measurable growth."
+              },
+              {
+                "title": "Strategic Partnership",
+                "body": "Working closely with your team to understand unique challenges and build tailored data solutions."
+              }
+            ]
+          },
+          "services": {
+            "headline": "Our E-commerce Data Solutions.",
+            "intro": "We provide comprehensive data analysis and visualization services tailored specifically for the e-commerce sector. Our expertise transforms your raw data into actionable insights, driving smarter decisions and sustained growth.",
+            "sectionLabel": "Our Services",
+            "items": [
+              {
+                "name": "Data Source Integration",
+                "desc": "Connect and unify your data from PostgreSQL databases, Google Analytics, and other vital platforms.",
+                "price": ""
+              },
+              {
+                "name": "Custom Dashboard Development",
+                "desc": "Build bespoke interactive dashboards using Metabase or Superset, designed to your exact specifications.",
+                "price": ""
+              },
+              {
+                "name": "Weekly Performance Reporting",
+                "desc": "Receive concise, executive-level reports delivered weekly, highlighting critical e-commerce metrics and trends.",
+                "price": ""
+              },
+              {
+                "name": "Advanced E-commerce Analytics",
+                "desc": "Dive deeper into customer behavior, sales funnels, product performance, and marketing ROI with expert analysis.",
+                "price": ""
+              },
+              {
+                "name": "Full-Service Data Retainer",
+                "desc": "An ongoing partnership including data integration, custom dashboards, and weekly performance insights for continuous optimization.",
+                "price": "Starting from USD 2,000/month"
+              }
+            ]
+          },
+          "gallery": {
+            "headline": "Insights in Action.",
+            "caption": "See how our interactive dashboards bring your e-commerce data to life, revealing patterns and opportunities at a glance."
+          },
+          "contact": {
+            "headline": "Let's Transform Your Data.",
+            "intro": "Ready to unlock the full potential of your e-commerce data? Reach out to discuss your specific needs and how our expertise can help your business thrive.",
+            "addressHint": "",
+            "hours": "Available Monday - Friday, 9 AM - 5 PM EST"
+          }
+        }
+      }
     },
     {
       "id": "sample-web-2",
@@ -104,7 +656,102 @@
       "language": "id",
       "budget": "4-6jt",
       "contact": {},
-      "keyword": "jasa pembuatan website"
+      "keyword": "jasa pembuatan website",
+      "enrichment": {
+        "businessName": "Pratama Bangun Konstruksi",
+        "niche": "services",
+        "subniche": "konstruksi umum",
+        "style": "modern",
+        "city": null,
+        "language": "id",
+        "pages": {
+          "home": {
+            "hero": "Membangun Masa Depan, Satu Proyek Sekali",
+            "tagline": "Mitra terpercaya Anda dalam mewujudkan visi konstruksi yang kokoh, inovatif, dan tepat waktu, dari perencanaan hingga penyelesaian.",
+            "intro": "Selamat datang di Pratama Bangun Konstruksi. Kami bangga menjadi bagian dari setiap pembangunan yang membentuk lanskap dan memenuhi kebutuhan masyarakat. Dengan pengalaman dan dedikasi, kami menghadirkan solusi konstruksi terbaik.",
+            "highlights": [
+              {
+                "title": "Kualitas Teruji",
+                "body": "Setiap proyek dikerjakan dengan standar tertinggi, memastikan kekuatan dan daya tahan yang luar biasa."
+              },
+              {
+                "title": "Inovasi Desain",
+                "body": "Kami memadukan estetika modern dengan fungsionalitas, menciptakan ruang yang efisien dan menarik."
+              },
+              {
+                "title": "Penyelesaian Tepat Waktu",
+                "body": "Komitmen kami adalah menyelesaikan proyek sesuai jadwal, tanpa mengorbankan kualitas."
+              }
+            ],
+            "cta": "Mulai Proyek Anda"
+          },
+          "about": {
+            "headline": "Tentang Pratama Bangun Konstruksi",
+            "body": "Pratama Bangun Konstruksi didirikan dengan visi untuk menjadi pemimpin dalam industri konstruksi, dikenal atas integritas dan keunggulan. Sejak awal, kami telah mendedikasikan diri untuk menyediakan layanan konstruksi yang komprehensif, mulai dari pembangunan residensial hingga proyek komersial skala besar. Kami percaya bahwa setiap bangunan adalah cerminan dari impian dan aspirasi, dan kami berkomitmen untuk mewujudkannya dengan presisi dan keahlian.\n\nTim kami terdiri dari para profesional berpengalaman, arsitek, insinyur, dan pekerja terampil yang berkolaborasi erat untuk menghadirkan hasil terbaik. Kami mengutamakan komunikasi yang transparan dengan klien, memastikan setiap tahapan proyek berjalan sesuai harapan. Kami tidak hanya membangun struktur, tetapi juga hubungan yang kuat dan kepercayaan yang langgeng.",
+            "values": [
+              {
+                "title": "Integritas & Transparansi",
+                "body": "Kami berpegang teguh pada prinsip kejujuran dan keterbukaan dalam setiap interaksi dan pekerjaan."
+              },
+              {
+                "title": "Kualitas Unggul",
+                "body": "Komitmen kami untuk memberikan hasil kerja yang memenuhi atau melampaui ekspektasi klien."
+              },
+              {
+                "title": "Inovasi Berkelanjutan",
+                "body": "Selalu mencari cara baru dan lebih baik dalam desain, material, dan metode konstruksi."
+              }
+            ]
+          },
+          "services": {
+            "headline": "Layanan Konstruksi Komprehensif Kami",
+            "intro": "Kami menawarkan berbagai layanan konstruksi yang dirancang untuk memenuhi kebutuhan spesifik Anda, memastikan setiap proyek dibangun dengan standar kualitas tertinggi dan efisiensi optimal.",
+            "sectionLabel": "Layanan Kami",
+            "items": [
+              {
+                "name": "Pembangunan Residensial",
+                "desc": "Mewujudkan rumah impian Anda dengan desain yang personal dan kualitas bangunan yang kokoh dan nyaman.",
+                "price": ""
+              },
+              {
+                "name": "Konstruksi Komersial",
+                "desc": "Membangun ruang bisnis yang fungsional, estetis, dan memenuhi standar operasional tinggi untuk kesuksesan Anda.",
+                "price": ""
+              },
+              {
+                "name": "Renovasi & Perbaikan",
+                "desc": "Transformasi ruang lama menjadi baru dengan solusi renovasi yang cerdas, efisien, dan modern.",
+                "price": ""
+              },
+              {
+                "name": "Desain & Perencanaan Arsitektur",
+                "desc": "Dari konsep awal hingga gambar kerja detail, kami membantu Anda merencanakan setiap aspek proyek dengan cermat.",
+                "price": ""
+              },
+              {
+                "name": "Manajemen Proyek",
+                "desc": "Mengelola seluruh siklus proyek, memastikan efisiensi, kepatuhan anggaran, dan penyelesaian tepat waktu.",
+                "price": ""
+              },
+              {
+                "name": "Struktur Baja & Beton",
+                "desc": "Keahlian dalam konstruksi struktur baja dan beton bertulang untuk kekuatan dan ketahanan jangka panjang.",
+                "price": ""
+              }
+            ]
+          },
+          "gallery": {
+            "headline": "Galeri Proyek Kami",
+            "caption": "Jelajahi portofolio proyek-proyek kami yang beragam, mencerminkan keahlian, inovasi, dan dedikasi kami dalam setiap detail konstruksi."
+          },
+          "contact": {
+            "headline": "Mari Wujudkan Proyek Anda Bersama",
+            "intro": "Kami siap membantu Anda memulai proyek konstruksi berikutnya. Jangan ragu untuk menghubungi kami melalui detail di bawah ini atau mengisi formulir kontak kami.",
+            "addressHint": "",
+            "hours": "Senin - Jumat: 08.00 - 17.00 WIB"
+          }
+        }
+      }
     },
     {
       "id": "sample-ai-2",
@@ -119,7 +766,97 @@
       "language": "en",
       "budget": "$3-5k",
       "contact": {},
-      "keyword": "need an LLM developer"
+      "keyword": "need an LLM developer",
+      "enrichment": {
+        "businessName": "TalentBot Solutions",
+        "niche": "tech",
+        "subniche": "AI recruitment solutions",
+        "style": "tech",
+        "city": null,
+        "language": "en",
+        "pages": {
+          "home": {
+            "hero": "Transforming Talent Acquisition with Intelligent Automation",
+            "tagline": "Streamline your hiring process, reduce manual effort, and discover the perfect candidates faster with our AI-powered recruitment agent.",
+            "intro": "Welcome to TalentBot Solutions. We specialize in cutting-edge AI agents designed to revolutionize your human resources operations. Our intelligent systems are built to enhance efficiency and precision in every step of the recruitment journey.",
+            "highlights": [
+              {
+                "title": "Smart CV Analysis",
+                "body": "Our agent meticulously reads and understands resumes, extracting key information with unmatched accuracy."
+              },
+              {
+                "title": "Precision Job Matching",
+                "body": "Experience superior candidate-to-role matching, ensuring only the most relevant profiles reach your hiring managers."
+              },
+              {
+                "title": "Concise Candidate Summaries",
+                "body": "Receive actionable, AI-generated summaries of top candidates, enabling quicker, informed decision-making."
+              }
+            ],
+            "cta": "Explore AI Solutions"
+          },
+          "about": {
+            "headline": "Pioneering the Future of Recruitment AI",
+            "body": "In today's competitive landscape, recruitment is often bogged down by time-consuming manual tasks, leading to missed opportunities and potential biases. We founded TalentBot Solutions to address these challenges head-on, leveraging the power of advanced Artificial Intelligence to redefine how organizations find and hire top talent.\n\nOur expertise lies in developing sophisticated LLM agents, with a preference for powerful models like Anthropic Claude, to automate and optimize every stage of the recruitment funnel. From initial screening to candidate shortlisting, we empower HR teams to focus on strategic engagement rather than administrative burdens.\n\nWe are committed to building AI solutions that are not only efficient and precise but also ethical and human-centric. Our goal is to augment human capabilities, making recruitment processes fairer, faster, and ultimately, more successful for everyone involved.",
+            "values": [
+              {
+                "title": "Intelligent Efficiency",
+                "body": "We believe in optimizing every process, freeing up human potential for strategic decisions and meaningful interactions."
+              },
+              {
+                "title": "Precision & Accuracy",
+                "body": "Our systems are engineered for meticulous data analysis, ensuring reliable and unbiased candidate evaluations."
+              },
+              {
+                "title": "Human-Centric Design",
+                "body": "While we automate tasks, our ultimate goal is to empower people, making recruitment more human and effective."
+              }
+            ]
+          },
+          "services": {
+            "headline": "Intelligent Solutions for Modern HR",
+            "intro": "Our suite of AI agents is designed to seamlessly integrate into your existing HR workflows, providing unparalleled efficiency and accuracy across your recruitment process.",
+            "sectionLabel": "Our Solutions",
+            "items": [
+              {
+                "name": "Automated CV Screening",
+                "desc": "Our LLM agent efficiently scans and analyzes hundreds of CVs, filtering based on your specific criteria and identifying top talent.",
+                "price": "Project Based"
+              },
+              {
+                "name": "Dynamic Job Requirement Matching",
+                "desc": "Beyond keywords, our AI understands the nuances of job descriptions and candidate profiles for truly relevant matches.",
+                "price": "Project Based"
+              },
+              {
+                "name": "Concise Candidate Summarization",
+                "desc": "Receive intelligently generated summaries of leading candidates, highlighting critical skills and experiences for quick review.",
+                "price": "Project Based"
+              },
+              {
+                "name": "Interview Scheduling Assistant",
+                "desc": "Streamline your interview process with an AI assistant that coordinates schedules and sends timely reminders.",
+                "price": "Custom Quote"
+              },
+              {
+                "name": "Custom AI Agent Development",
+                "desc": "Need a unique solution? We build bespoke LLM agents tailored to your specific HR and recruitment challenges.",
+                "price": "Custom Quote"
+              }
+            ]
+          },
+          "gallery": {
+            "headline": "Innovation in Action",
+            "caption": "Visualizing the seamless integration of AI into your recruitment workflow and the powerful insights it delivers."
+          },
+          "contact": {
+            "headline": "Connect with Our AI Experts",
+            "intro": "Ready to transform your recruitment process? Reach out to us and discover how intelligent automation can benefit your organization.",
+            "addressHint": "",
+            "hours": "Monday - Friday: 9 AM - 5 PM (EST)"
+          }
+        }
+      }
     }
   ]
 }

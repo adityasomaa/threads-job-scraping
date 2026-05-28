@@ -1,8 +1,8 @@
-import "dotenv/config";
 import { chromium } from "playwright";
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import dotenv from "dotenv";
 import slugify from "slugify";
 import { SEARCH_KEYWORDS } from "./keywords.js";
 import { classify, extractBudget, extractContact } from "./classify.js";
@@ -11,6 +11,7 @@ import type { Job } from "./types.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, "..", "..");
+dotenv.config({ path: path.join(ROOT, ".env") });
 const STORAGE = path.join(__dirname, "..", "storage.json");
 const OUT = path.join(ROOT, "data", "jobs.json");
 

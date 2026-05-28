@@ -1,42 +1,30 @@
 import { notFound } from "next/navigation";
-import { loadJobs, getJob } from "@/lib/jobs";
-import { PreviewShell } from "@/components/preview/PreviewShell";
-import { Hero } from "@/components/preview/Hero";
-import { Mockup } from "@/components/preview/Mockup";
-import { FeatureGrid } from "@/components/preview/FeatureGrid";
-import { Timeline } from "@/components/preview/Timeline";
-import { TechStack } from "@/components/preview/TechStack";
-import { getContent } from "@/components/preview/templates";
+import Link from "next/link";
+import { getJob } from "@/lib/jobs";
+import { photosFor } from "@/lib/photos";
+import { HomeAnim } from "./parts";
 
 export const dynamic = "force-static";
 
-export function generateStaticParams() {
-  return loadJobs().jobs.map((j) => ({ id: j.id }));
-}
-
-export default async function PreviewPage({
-  params,
-}: {
-  params: Promise<{ id: string }>;
-}) {
+export default async function HomePage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
   const job = getJob(id);
-  if (!job) notFound();
-
-  const content = getContent(job);
+  if (!job?.enrichment) notFound();
+  const e = job.enrichment;
+  const photos = photosFor(e.niche);
 
   return (
-    <PreviewShell job={job} accent={content.accent}>
-      <Hero
-        job={job}
-        eyebrow={content.eyebrow}
-        title={content.title(job)}
-        subtitle={content.subtitle}
-      />
-      <Mockup category={job.category} accent={content.accent} />
-      <FeatureGrid features={content.features} accent={content.accent} />
-      <Timeline phases={content.phases} accent={content.accent} />
-      <TechStack items={content.stack} accent={content.accent} />
-    </PreviewShell>
+    <HomeAnim
+      hero={e.pages.home.hero}
+      tagline={e.pages.home.tagline}
+      intro={e.pages.home.intro}
+      cta={e.pages.home.cta}
+      highlights={e.pages.home.highlights}
+      heroImage={photos.hero}
+      city={e.city}
+      isID={e.language === "id"}
+      jobId={job.id}
+      sectionLabel={e.pages.services.sectionLabel}
+    />
   );
 }
