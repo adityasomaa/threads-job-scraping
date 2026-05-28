@@ -42,16 +42,10 @@ export function GalleryAnim({
         {caption}
       </motion.p>
 
-      <div className="mt-16 grid grid-cols-12 gap-3 md:gap-4 auto-rows-[140px] md:auto-rows-[180px]">
+      <div className="mt-16 grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
         {photos.map((src, i) => {
-          const spans = [
-            "col-span-8 row-span-2",
-            "col-span-4 row-span-1",
-            "col-span-4 row-span-1",
-            "col-span-6 row-span-2",
-            "col-span-6 row-span-1",
-            "col-span-6 row-span-1",
-          ];
+          // First photo is feature (spans 2 cols on desktop)
+          const featured = i === 0;
           return (
             <motion.div
               key={i}
@@ -60,13 +54,15 @@ export function GalleryAnim({
               viewport={{ once: true, margin: "-80px" }}
               transition={{ duration: 0.55, delay: i * 0.04 }}
               whileHover={{ scale: 1.02 }}
-              className={`${spans[i % spans.length]} overflow-hidden cursor-zoom-in`}
+              className={`relative overflow-hidden cursor-zoom-in ${
+                featured ? "col-span-2 aspect-[16/9]" : "aspect-[4/5]"
+              }`}
               style={{ borderRadius: "var(--radius)" }}
             >
               <ImageWithFallback
                 src={src}
                 alt={`Gallery photo ${i + 1}`}
-                className="w-full h-full object-cover transition-transform duration-700 hover:scale-110"
+                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-110"
               />
             </motion.div>
           );
