@@ -1,0 +1,15 @@
+{
+  "name": "threads-job-scraping",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "scraper",
+    "web"
+  ],
+  "scripts": {
+    "scrape": "npm run scrape --workspace=scraper",
+    "dev": "npm run dev --workspace=web",
+    "build": "npm run build --workspace=web",
+    "start": "npm run start --workspace=web"
+  }
+}

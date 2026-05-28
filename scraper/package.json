@@ -1,0 +1,20 @@
+{
+  "name": "scraper",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "scrape": "tsx src/index.ts",
+    "threads:login": "tsx src/login.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "playwright": "^1.48.0",
+    "slugify": "^1.6.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
